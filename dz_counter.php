@@ -17,7 +17,10 @@
     readfile($file);
 
     $sa=fopen("counter.txt","r+");
-    
+    if( $sa=fopen("counter.txt","r+")){
+        fwrite ($fp, "1");
+    }
+
     ?>
     
 </body>
