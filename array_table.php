@@ -10,19 +10,21 @@
 
 <?php
 $array=array(
-   1=>'Иванов',
-   2=>'Петров',
-   3=>'Сидоров',
-   4=>'Смирнов',
-   5=>'Соболев');
+   1=>"Иванов",
+   2=>"Петров",
+   3=>"Сидоров",
+   4=>"Смирнов",
+   5=>"Соболев");
   
-function tb($array)
- $str ="<table>";
-{
-   foreach()
- 
+function tb($array){
+ $str = "<table>\n";
+foreach($array as $key => $value){
+$str.="\t<tr>\n\t\t<td>$key</td>\n\t\t<td>$value</td>\n\t<tr>\t";
 }
-  
+}
+   $str.="</table>";  
+   return $str;
+   echo tb($array);
   
 
 
