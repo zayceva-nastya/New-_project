@@ -18,7 +18,7 @@
     file_put_contents('opros.csv', implode(";", $arr));
 
 
-
+echo "Yes"."-"$arr[0]."\n".
 
     ?>
 
