@@ -17,8 +17,13 @@
     $arr[$i]++;
     file_put_contents('opros.csv', implode(";", $arr));
 
-echo "Yes"."-"."\t" . $arr[0]  ."<br>"."No"."-".  $arr[1]  ."<br>"."Don't know"."-".  $arr[2];
-require_once('opros.html');
+
+    foreach($arr as $key=>$value){
+        echo "$key - $value<br>";
+    }
+
+// echo "Yes"."-"."\t" . $arr[0]  ."<br>"."No"."-".  $arr[1]  ."<br>"."Don't know"."-".  $arr[2];
+// require_once('opros.html');
     ?>
 
 </body>
