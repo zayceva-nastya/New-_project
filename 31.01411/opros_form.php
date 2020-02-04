@@ -19,7 +19,7 @@
         <?php
         for ($i = 1; $i < count($arr); $i++) {
             $buf = explode(" - ", $arr[$i])[0];
-            echo "<tr><td><input class='radio_input' id='radio'  type='radio' name='vot'  value='$i'><label for='radio'>$buf</label></td></tr>\n";
+            echo "<tr><td><label ><input class='radio_input'   type='radio' name='vot'  value='$i'>$buf</label></td></tr>\n";
         }
 
         ?>
