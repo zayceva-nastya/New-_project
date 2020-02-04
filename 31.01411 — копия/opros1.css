@@ -1,0 +1,26 @@
+.bor {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 10px 2rem;
+    width: 30%;
+    margin: auto;
+   
+    box-shadow: 3px 3px 3px 2px rgb(105, 105, 105),-3px 0 3px 0  rgb(105, 105, 105);
+
+}
+
+.box {
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.red {
+    background-color: red;
+    border: 2px solid yellow;
+    height: 20px;
+    border-radius: 5px;
+
+}
