@@ -1,0 +1,33 @@
+#vote {
+    background: rgb(32, 178, 170);
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    padding: 5px 20px;
+    border: 2px solid rgb(220, 220, 220);
+    margin-top: 1rem;
+}
+
+form {
+    background: rgb(192, 192, 192);
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 2px rgb(105, 105, 105),-3px 0 3px 0  rgb(105, 105, 105);
+}
+
+
+table {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    background: white;
+    width: 100%;
+}
+
+table tr:not(:first-child) td:nth-child(odd) {
+    border-top: 1px solid lightgrey;
+
+}
