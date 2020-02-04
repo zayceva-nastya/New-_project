@@ -33,7 +33,8 @@
 
     for ($i = 1; $i < count($arr); $i++) {
         $buf = explode(" - ", $arr[$i]);
-        echo "<div class='red' style='width:" . (100 * $buf[1] / $sum) . "px'></div>" . round((($buf[1] / $sum) * 100), 2) . '%' . " - " . $buf[0] . '<br>';
+        $result=round((100 * $buf[1] / $sum),2 );
+        echo "<div class='red' style='width:{$result}px'></div> $buf[0]-$result%<br>";
     }
 
     echo "</div>";
