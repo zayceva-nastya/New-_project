@@ -15,7 +15,8 @@
   
     $ind=file('chat.txt');
     foreach($ind as $key=>$value){
-        echo "<table><tr><td>". $value. "</table></tr></td><br>";
+        // echo "<table><tr><td>". $value. "</table></tr></td><br>";
+        echo ($key%2==0)? "<div class='odd'>$value</div>":"<div class='even'>$value</div>";
     }
     
     
